@@ -1,0 +1,64 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 100%;
+    margin: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+    section {
+        width: 80%;
+        margin: 1rem auto;
+        padding: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    section {
+        width: 50%;
+        margin: 1rem auto;
+        padding: 2rem;
+    }
+}
+
+button {
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+/* Navbar */
+
+.navbar {
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+}
+
+/* Timer */
+
+.timer p {
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+/* Configuration */
+
+table {
+    width: 100%;
+}
